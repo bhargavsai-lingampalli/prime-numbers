@@ -1,5 +1,5 @@
 # prime-numbers
-List of Prime Numbers upto certain Range.
+List of Prime Numbers upto certain Range using c
 
 #How the code works
 
