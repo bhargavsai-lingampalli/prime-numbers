@@ -1,5 +1,5 @@
 # prime-numbers
-List of Prime Numbers upto curtain Range
+List of Prime Numbers upto certain Range.
 
 #How the code works
 
