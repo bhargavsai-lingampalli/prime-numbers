@@ -10,22 +10,23 @@
 
 #### Elimination of Even Numbers
 * `for  loop` starts with initial value 3 and increment 2.
+
 `for(num=3; num<range; num+=2)`
 #### After Eliminating Even Numbers
 * Hence we only remain with odd numbers. 
 * That Numbers are no more divible by even numbers. 
-* So we only have to check the odd numbers by dividing them with odd numbers in the inner `for loop` and increase the count by 1 which keeps the count of prime numbers printed.
+* So we only have to check the odd numbers by dividing them with odd numbers in the inner `for loop`
 ```
 for(i=3,res=0; i<num && res==0; i+=2)
    {
-       if(num%i==0)
-           res=1;
-    }
+      if(num%i==0)
+        res=1;
+   }
 
 ```
 #### After Checking a Number 
 
- * If any odd number divible by odd number less than it.
+ * If any odd number divible by a odd number less than it.
 * The value of variable res(result) changes to 1. 
     `res=1;` else it remains at 0.`res=0`
 - If the value at `res` remains zero after exiting `inner for loop`
