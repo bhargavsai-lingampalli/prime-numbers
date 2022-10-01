@@ -43,6 +43,5 @@ if(res==0)
 - To count the number of prime numbers printed the `count` is increased by 1.
 
 ***Thanks for watching.***
-***Don't Forgot to Comment your Suggestions***
 
 
