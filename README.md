@@ -15,7 +15,7 @@
 #### After Eliminating Even Numbers
 * Hence we only remain with odd numbers. 
 * That Numbers are no more divible by even numbers. 
-* So we only have to check the odd numbers by dividing them with odd numbers in the inner `for loop`
+* So we only have to check the odd numbers by dividing them with odd numbers in the `inner for loop`
 ```
 for(i=3,res=0; i<num && res==0; i+=2)
    {
@@ -28,7 +28,9 @@ for(i=3,res=0; i<num && res==0; i+=2)
 
  * If any odd number divible by a odd number less than it.
 * The value of variable res(result) changes to 1. 
-    `res=1;` else it remains at 0.`res=0`
+    `res=1;`
+- otherwise it remains at 0.`res=0`
+
 - If the value at `res` remains zero after exiting `inner for loop`
 - It gets printed in the iteration of `outer for loop`  by using printf.
 ```
