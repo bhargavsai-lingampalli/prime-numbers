@@ -43,5 +43,9 @@ if(res==0)
 - To count the number of prime numbers printed the `count` is increased by 1.
 
 ***Thanks for watching.***
+## License
+
+[![MIT License](https://img.shields.io/badge/Licence%20-MIT-brightgreen)](https://github.com/BhargavSai-Lingampalli/prime-numbers/blob/main/LICENCE)
+
 
 
