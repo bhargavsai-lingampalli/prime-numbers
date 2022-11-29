@@ -47,7 +47,7 @@ for(i=3,res=0; i<ofnum && res==0; i+=2)
 ```
 #### After Checking a Number 
 
- * If any odd number divible by a odd number less than it.
+* If any odd number divible by a odd number less than it.
 * The value of variable res(result) changes to 1. 
     `res=1;`
 - otherwise it remains at 0.`res=0`
@@ -61,7 +61,7 @@ if(res==0)
         count+=1;
      }
 ```
-- To count the number of prime numbers printed the `count` is increased by 1.
+- after printing each prime number the `count` is increased by 1
 
 ***Thanks for watching.***
 ## License
