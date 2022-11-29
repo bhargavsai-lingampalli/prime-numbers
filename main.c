@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+void main()
 {
     int i,num,res,range,count=1,ofnum;
     printf("enter number: ");
