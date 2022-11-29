@@ -34,7 +34,7 @@ The factors of 360 are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20,
  24, 30, 36, 40, 45, 60, 72, 90, 120, 180, 360.
 * Let's remove 1 and 360.then we only remains with values 2 to 180(360/2)
 * So from this we can understand if any number has factors(dividers) they only lies upto Half of that number.
-* So create a variable and store number
+* So create a variable and store number/2
 ```ofnum=num/2;```
 
 ```
