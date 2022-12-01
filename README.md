@@ -10,7 +10,7 @@
 3. **i** = Numbers upto  num
 4. **res** = Result(0 or 1)
 5. **count** = Number of Prime Numbers upto Range
-6. **ofnum** = num/2(each time)
+6. **sqnum** = √number + 1
 
 
 #### Starting
