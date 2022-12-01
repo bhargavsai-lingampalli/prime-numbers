@@ -24,18 +24,19 @@
 #### inner for loop
 * Since we only remain with odd numbers. 
 * That Numbers are no more divible by even numbers(2,4,6,etc.). 
-* So we only have to check the odd numbers by doing modulus division with odd numbers from 3 to num/2(ofnum)
-* But why num/2?
+* So we only have to check the odd numbers by doing modulus division with odd numbers from 3 to √num(sqnum)
+* But why √num?
 * ok for Example 
 The divisors of 360 are 1,2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20,
  24, 30, 36, 40, 45, 60, 72, 90, 120, 180,360.
 * Except 360.all the values lies between 1 to 180(360/2)
-* from this example we can understand if any number has factors(divisors) they only lies between 1 to number/2(Half).
-* So we created a variable and stored number/2(to decrease execution time)
-```ofnum=num/2;```
+* from this example we can understand if any number has factors(divisors) they only lies between 1 to number/2(largest factor).
+* And the factor with least value always comes before √number(square root of that number)
+* So we created a variable and stored √number+1(add 1 for condition check <sqnum)
+```sqnum=pow(num,0.5)+1;```
 
 ```
-for(i=3,res=0; i<ofnum && res==0; i+=2)
+for(i=3,res=0; i<sqnum && res==0; i+=2)
    {
       if(num%i==0)
         res=1;
