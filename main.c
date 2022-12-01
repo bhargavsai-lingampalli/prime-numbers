@@ -7,7 +7,7 @@ void main()
     printf("2\t");
     for(num=3; num<range; num+=2)
     {
-        sqnum=pow(num,0.5);
+        sqnum=pow(num,0.5)+1;
         for(i=3,res=0; i<sqnum && res==0; i+=2)
         {
             if(num%i==0)
