@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<maths.h>
+
 void main()
 {
     int i,num,res,range,count=1,sqnum;
